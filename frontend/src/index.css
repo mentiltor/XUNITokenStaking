@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(59, 51, 99);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+/* background of the scrollbar */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* color of the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border: none;
+}
+
+/* color on hover of the scrollbar handle */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+  border: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mx-4 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-2 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.my-1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overflow-scroll-vertical {
+  overflow-y: auto;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.connect-balance-container {
+  display: flex;
+  align-items: center;
+}
+
+.balance {
+  color: white;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.logo-title {
+  font-size: 1.5rem;
+  color: white;
+  margin: 10px;
+  white-space: nowrap;
+}
+
+.connect-button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.connect-button:hover {
+  border: 1px solid pink;
+  color: pink;
+}
+
+.connect-button:focus {
+  border: 1px solid white;
+  color: white;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.form-container {
+  background-color: rgb(44, 37, 74);
+  max-width: 480px;
+  border-radius: 5px;
+  padding: 30px 20px;
+  margin-top: 80px;
+}
+
+.form-item-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.item-key {
+  font-size: 1.2rem;
+  color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.item-value {
+  font-size: 1.2rem;
+  color: rgb(133, 32, 127);
+  padding: 5px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.item-select {
+  font-size: 1.2rem;
+  color: #222;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.item-edit {
+  font-size: 1.2rem;
+  color: rgb(133, 32, 127);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.item-button {
+  font-size: 1.2rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item-button:hover {
+  color: brown;
+  border: 1px solid brown;
+}
+
+.item-button:focus {
+  color: white;
+  border: 1px solid white;
+}
+
+.table-container {
+  margin: 0.5rem 2rem;
+  margin-top: 30px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-head-cell {
+  font-size: 1.2rem;
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  border-bottom: 2px solid white;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table-body-cell {
+  font-size: 1.2rem;
+  color: #ddd;
+  background-color: transparent;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+.table-body-none {
+  font-size: 1.5rem;
+  color: gray;
+  background-color: transparent;
+  padding: 20px 10px;
+  white-space: nowrap;
+}
+
+.table-body-cell-button {
+  font-size: 1.2rem;
+  color: #ddd;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.table-body-cell-button:hover {
+  color: brown;
+  border: 1px solid brown;
+}
+
+.table-body-cell-button:focus {
+  color: white;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 960px) {
+  .title-container {
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .connect-balance-container {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .connect-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .balance {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .form-container {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .table-container {
+    overflow: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .form-item-container {
+    flex-wrap: wrap;
+  }
+}
